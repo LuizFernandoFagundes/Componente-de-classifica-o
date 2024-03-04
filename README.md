@@ -26,7 +26,7 @@ Os usuários devem ser capazes de:
 
 ### Captura de tela
 
-![](src/img/animacao.gif)
+![](src/img/Animacao.gif)
 
 
 

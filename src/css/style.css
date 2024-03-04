@@ -1,0 +1,143 @@
+body{
+    font-size: 1.5rem;
+    font-family: "Overpass", sans-serif;
+    font-style: normal;
+    background-color: var(--Very-Dark-Blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    padding: 50px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    background-color: var(--Light-Grey);
+}
+
+
+.container  .imagemEstrela
+{
+    
+    width: 50px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: var(--Light-Grey);
+    margin-bottom: 20px;
+    
+}
+
+.container .pergunta{
+    color: var(--White);
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.container .textoSuporte{
+    color: var(--Medium-Grey);
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.container .itens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+   
+}
+
+.itens .item{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: var(--Light-Grey);
+    color: var(--Medium-Grey);
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.itens .item:hover{
+    background-color: var(--Orange);
+    color: var(--White);
+}
+
+.container .botao{
+    width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: var(--Orange);
+    color: var(--White);
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 30px;
+    border-style: none;
+}
+.container .botao:hover{
+    background-color: var(--White);
+    color: var(--Orange);
+   
+}
+
+
+
+.mensagemConfirmacao{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+}
+
+.container .resultado{
+    color: var(--Orange);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    background-color: var(--Light-Grey);
+    border-radius: 50px;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.container .mensagemObrigado{
+    color: var(--White);
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Overpass", sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container .mensagemFinal{
+    color: var(--Medium-Grey);
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.ativo{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: var(--Medium-Grey);
+    color: var(--White);
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+}

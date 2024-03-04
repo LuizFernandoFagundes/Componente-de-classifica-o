@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="shortcut icon" href="src/img/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="src/css/reset.css">
+        <link rel="stylesheet" href="src/css/style.css">
+        <link rel="stylesheet" href="src/css/variaveis.css">
+        <script src="src/js/index.js" defer></script>
+    <title>Formulário Interativo</title>
+</head>
+
+<body>
+<div class="container">
+    <div class="conteudoPrincipal">
+      <img src="src/img/icon-star.svg" alt="Imagem de uma estrela" class="imagemEstrela">
+      <h1 class="pergunta">How did we do?</h1>
+      <p class="textoSuporte">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      <ul class="itens">
+        <li class="item" value="1">1</li>
+        <li class="item" value="2">2</li>
+        <li class="item" value="3">3</li>
+        <li class="item" value="4">4</li>
+        <li class="item" value="5">5</li>
+      </ul>
+
+      <button type="submit" class="botao" id="botao" >SUBMIT</button>
+    </div>
+
+    <div class="mensagemConfirmacao hidden">
+          <img src="src/img/illustration-thank-you.svg" alt="Imagem de obrigado" class="imagemconfirmacao">
+          <span class="resultado" id="resultado">You selected out of 5</span>
+          <h1 class="mensagemObrigado">Thank you!</h1>
+          <p class="mensagemFinal">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+    </div>
+</div>
+</body>
+
+</html>
